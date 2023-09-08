@@ -6,7 +6,6 @@ export const useExampleApi = () => {
     baseURL: `https://swapi.dev/api`,
   })
 
-  // Countries Endpoints
   const fetchPeople = () => {
     return exampleApiClient.get('/people')
   }
