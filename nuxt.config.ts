@@ -5,10 +5,5 @@ export default defineNuxtConfig({
   build: {
     // @ts-ignore
     transpile: ['axios', 'events'],
-  },
-  runtimeConfig: {
-    public: {
-      EXAMPLE_URI: process.env.EXAMPLE_URI
-    }
   }
 })
